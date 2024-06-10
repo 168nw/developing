@@ -38,15 +38,23 @@ const Header = () => {
           <li>
             <img width="38" src={iphone} alt="phone" /> 
               <div className="header_info">
-              <b>Позвонить нам</b>
-              <b>+79316117276</b>
+              <span>
+              Позвонить нам
+            </span>
+            <div>
+              +79316117276
+            </div>
               </div>
           </li>
           <li>
             <img width="38" src={chat} alt="phone" /> 
             <div className="header_info">
-            <b>Написать нам</b>
-            <b>specstroy@mail.com</b>
+            <span>
+              Написать нам
+            </span>
+            <div>
+              168nwirk@gmail.com
+            </div>
             </div>
           </li>
         </ul>
